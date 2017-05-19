@@ -1,0 +1,15 @@
+/*Pfeiffer, Philipp: 421620 */
+/*Buß, Jasper: 430423*/
+
+
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+#distancesTable {
+  margin-top: 100px;
+}

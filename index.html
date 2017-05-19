@@ -1,0 +1,75 @@
+<!-- Pfeiffer, Philipp: 421620 -->
+<!-- Buß, Jasper: 430423 --> 
+<!--Layout template from: https://getbootstrap.com/examples/starter-template/-->
+<!-- Asked for permission -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+        <title>Calculate distances</title>
+
+        <!-- Bootstrap core CSS -->
+        <!-- Asked for permission -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom styles for this template -->
+        <link href="css/layout.css" rel="stylesheet">
+    </head>
+    <body>
+
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Geosoftware Task 02</a>
+                </div>
+                <div id="navbar" class="collapse navbar-collapse">
+
+                </div>
+                <!--/.nav-collapse -->
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="starter-template">
+                <h1>Calculate distance between more then two WGS84 points.</h1>
+                <p >Chose your coordinate file below and get the distance between them.</p>
+                <div id="FixCalculation"></div>
+            </div>
+            <div class="row">
+                <br/>
+            <div>
+            Datei auswählen:
+            <input type="file" id="fileInput" >
+            </div>
+            <br/>
+            <pre id="fileDisplayArea"></pre>
+
+            </div>
+            </div>
+
+
+        <!-- /.container -->
+
+
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="berechnung.js"></script>
+
+
+        <!--Processing input from formular-->
+    </body>
+
+</html>
